@@ -6,7 +6,7 @@ The app supports multiple providers, including **Pollinations.ai** (which requir
 
 ---
 
-## ✨ Features
+## Features
 
 - **Rich, Premium Interface:** Modern, responsive UI utilizing custom glassmorphic cards, typography from Google Fonts, gradients, hover animations, and dark/light compatibility.
 - **Style-Conditioned Prompts:** Overlay presets like *Cyberpunk*, *Anime*, *Photorealistic*, *3D Render/Pixar*, *Origami*, *Surrealism*, and more.
@@ -21,7 +21,7 @@ The app supports multiple providers, including **Pollinations.ai** (which requir
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 image-generation-chatbot/
@@ -38,7 +38,7 @@ image-generation-chatbot/
 
 ---
 
-## 🚀 Running Locally
+## Running Locally
 
 Follow these steps to run the application on your local machine.
 
@@ -76,7 +76,7 @@ This will start a local server and automatically open the application in your de
 
 ---
 
-## 🔑 How to Add Your API Keys
+## How to Add Your API Keys
 
 You have three ways to configure your API keys:
 
@@ -102,11 +102,11 @@ If deploying to Streamlit Community Cloud:
    ```
 
 ### Option C: UI Key Manager (Dynamic Override)
-You can directly paste your tokens inside the **🔑 API Credentials Manager** inside the app sidebar. These keys are only stored in memory during your active session.
+You can directly paste your tokens inside the **API Credentials Manager** inside the app sidebar. These keys are only stored in memory during your active session.
 
 ---
 
-## 🌐 How to Deploy
+## How to Deploy
 
 ### Deploying to Streamlit Community Cloud (Easiest & Free)
 1. Commit your codebase to a public GitHub repository.
@@ -117,6 +117,6 @@ You can directly paste your tokens inside the **🔑 API Credentials Manager** i
 
 ---
 
-## ⚠️ Known Limitations
+## Known Limitations
 
 - **Session-bound Memory:** Because this app runs purely in Streamlit, all generated prompt history, gallery images, and cached configurations are stored in Streamlit's `session_state`. When you refresh the webpage, close the browser, or when the server restarts, your generated history is cleared.
