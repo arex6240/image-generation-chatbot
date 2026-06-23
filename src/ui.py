@@ -190,7 +190,7 @@ def render_footer():
     """Renders the app footer."""
     footer_html = """
     <div class="footer">
-        ImagineAI • Designed with ❤️ using Streamlit & Pollinations API • © 2026 All Rights Reserved
+        ImagineAI
     </div>
     """
     st.markdown(footer_html, unsafe_allow_html=True)
